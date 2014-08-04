@@ -1,0 +1,31 @@
+{
+    "name": "dir2pattern",
+    "version": "0.0.1",
+    "description": "Fix `dir` path to pattern such as `dir/**/*` for `grunt.file.expand`"
+    "main": "dir2pattern.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/poppinlp/node-dir-to-pattern"
+    },
+    "bugs": {
+        "url": "https://github.com/poppinlp/node-dir-to-pattern/issues"
+    },
+    "author": {
+        "name": "PoppinL",
+        "email": "poppinlp@gmail.com",
+        "url": "http://poppinlp.github.io"
+    },
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "keywords": [
+        "node",
+        "nodejs",
+        "pattern"
+    ],
+    "scripts": {
+        "test": "node demo.js"
+    }
+}
