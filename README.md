@@ -1,6 +1,8 @@
 # node-dir-to-pattern
 
-[![Build Status](https://travis-ci.org/poppinlp/node-dir-to-pattern?branch=master)](https://travis-ci.org/poppinlp/node-dir-to-pattern)
+[![Build Status](https://travis-ci.org/poppinlp/node-dir-to-pattern.svg?branch=master)](https://travis-ci.org/poppinlp/node-dir-to-pattern)
+[![Dependency Status](https://david-dm.org/poppinlp/node-dir-to-pattern.svg)](https://david-dm.org/poppinlp/node-dir-to-pattern)
+[![devDependency Status](https://david-dm.org/poppinlp/node-dir-to-pattern/dev-status.svg)](https://david-dm.org/poppinlp/node-dir-to-pattern#info=devDependencies)
 
 Fix `dir` path to pattern such as `dir/**/*` for `grunt.file.expand`.
 
@@ -30,4 +32,5 @@ node demo.js
 
 ### History
 
+- Ver 0.0.2 Fix readme
 - Ver 0.0.1 init
