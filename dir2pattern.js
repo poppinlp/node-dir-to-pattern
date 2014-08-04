@@ -13,7 +13,7 @@ var path = require('path'),
     dir2pattern = module.exports = {
         fix: function (str) {
             if (fs.existsSync(str) && fs.statSync(str).isDirectory()) {
-                return path.normalize(str + path.sep + '**' + path.sep + '*');
+                return path.normalize(str + path.sep + '**' + path.sep + '*.*');
             }
             return str;
         }

@@ -1,6 +1,6 @@
 {
     "name": "dir2pattern",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Fix `dir` path to pattern such as `dir/**/*` for `grunt.file.expand`",
     "main": "dir2pattern.js",
     "repository": {

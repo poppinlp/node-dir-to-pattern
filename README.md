@@ -32,5 +32,6 @@ node demo.js
 
 ### History
 
+- Ver 0.0.3 Bugfix: ignore directory name
 - Ver 0.0.2 Fix readme
 - Ver 0.0.1 init
