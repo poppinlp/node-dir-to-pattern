@@ -1,7 +1,7 @@
-var dir2pattern = require('./dir2pattern.js');
+var fixPattern = require('./dir2pattern.js');
 
-console.log(dir2pattern.fix('test'));
-console.log(dir2pattern.fix('test/'));
-console.log(dir2pattern.fix('test/file'));
-console.log(dir2pattern.fix('test123'));
-console.log(dir2pattern.fix('test/*.html'));
+console.log(fixPattern('test'));
+console.log(fixPattern('test/'));
+console.log(fixPattern('test/file'));
+console.log(fixPattern('test123'));
+console.log(fixPattern('test/*.html'));

@@ -9,12 +9,11 @@
 'use strict';
 
 var path = require('path'),
-    fs = require('fs'),
-    dir2pattern = module.exports = {
-        fix: function (str) {
-            if (fs.existsSync(str) && fs.statSync(str).isDirectory()) {
-                return path.normalize(str + path.sep + '**' + path.sep + '*.*');
-            }
-            return str;
-        }
-    };
+    fs = require('fs');
+
+module.exports = function (str) {
+    if (fs.existsSync(str) && fs.statSync(str).isDirectory()) {
+        return path.normalize(str + path.sep + '**' + path.sep + '*.*');
+    }
+    return str;
+};

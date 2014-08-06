@@ -19,8 +19,8 @@ npm install dir2pattern --save-dev
 #### Basic
 
 ```js
-var dir2pattern = require('dir2pattern');
-cnosole.log(dir2pattern('path/to/'));
+var fixPattern = require('dir2pattern');
+cnosole.log(fixPattern('path/to/'));
 // path/to/**/*.*
 ```
 
@@ -32,6 +32,7 @@ node demo.js
 
 ### History
 
+- Ver 0.0.4 Move `fix` function to `export` it self
 - Ver 0.0.3 Bugfix: ignore directory name
 - Ver 0.0.2 Fix readme
 - Ver 0.0.1 init
