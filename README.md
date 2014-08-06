@@ -4,7 +4,7 @@
 [![Dependency Status](https://david-dm.org/poppinlp/node-dir-to-pattern.svg)](https://david-dm.org/poppinlp/node-dir-to-pattern)
 [![devDependency Status](https://david-dm.org/poppinlp/node-dir-to-pattern/dev-status.svg)](https://david-dm.org/poppinlp/node-dir-to-pattern#info=devDependencies)
 
-Fix `dir` path to pattern such as `dir/**/*` for `grunt.file.expand`.
+Fix `dir` path to pattern such as `dir/**/*.*` for `grunt.file.expand`.
 
 ### Getting Started
 
@@ -21,7 +21,7 @@ npm install dir2pattern --save-dev
 ```js
 var dir2pattern = require('dir2pattern');
 cnosole.log(dir2pattern('path/to/'));
-// path/to/**/*
+// path/to/**/*.*
 ```
 
 ### Demo
